@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F6YIvXHo3MY//ZjGaRG296E4mJxrIIOdiTgQEs5BYy9uMKMhJL0IkU09g9q9ycQtsfwkrnpZOpfAc72syJ7yHg==",
+  "dgSpecHash": "QZNNOJjPT0CgGVpDnKfqGR1nBupyuQ6GFeO2YzDfI/IrJjd9WD1MPVAlpwpWfmDzT3dB0xNvj07rad02nLHqJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lidka\\source\\repos\\our_calculator\\our_calculator\\our_calculator\\our_calculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\dasad\\source\\repos\\our_calculator\\our_calculator\\our_calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dasad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
