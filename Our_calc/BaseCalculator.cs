@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace our_calculator
+namespace Our_calc
 {
     internal class BaseCalculator
     {
@@ -24,6 +24,5 @@ namespace our_calculator
         {
             return n / k;
         }
-
     }
 }
