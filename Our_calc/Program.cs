@@ -39,7 +39,14 @@ class Program
                 {
                     Console.WriteLine(bul1.Sub(n, k));
                 }
-
+                if (mathOperation == 3)
+                {
+                    Console.WriteLine(bul1.Mult(n, k));
+                }
+                if (mathOperation == 4)
+                {
+                    Console.WriteLine(bul1.Div(n, k));
+                }
 
 
             }
