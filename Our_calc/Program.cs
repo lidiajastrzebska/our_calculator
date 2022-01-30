@@ -26,7 +26,6 @@ class Program
                     Console.WriteLine("insert second number");
                     int k = Convert.ToInt32(Console.ReadLine());
                     int result;
-
                     Console.WriteLine("Choose operation");
                     Console.WriteLine("1. addition");
                     Console.WriteLine("2. subtraction");
