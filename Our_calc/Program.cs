@@ -9,6 +9,7 @@ class Program
         while (true)
         {
             BaseCalculator bul1 = new BaseCalculator();
+            AdvancedCalculator advanced1 = new AdvancedCalculator();
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -21,42 +22,58 @@ class Program
             switch (calculator)
             {
                 case "1":
-                    Console.WriteLine("insert first number");
-                    int n = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("insert second number");
-                    int k = Convert.ToInt32(Console.ReadLine());
-                    int result;
-                    Console.WriteLine("Choose operation");
-                    Console.WriteLine("1. addition");
-                    Console.WriteLine("2. subtraction");
-                    Console.WriteLine("3. multiplication");
-                    Console.WriteLine("4. divide");
-
-                    Console.WriteLine("Choose action");
-                    string action = Console.ReadLine();
-                    switch (action)
                     {
-                        case "1":
-                            result = n + k;
-                            Console.WriteLine("result=" + result);
-                            break;
-                        case "2":
-                            result = n - k;
-                            Console.WriteLine("result=" + result);
-                            break;
-                        case "3":
-                            result = n * k;
-                            Console.WriteLine("result=" + result);
-                            break;
-                        case "4":
-                            result = n / k;
-                            Console.WriteLine("result=" + result);
-                            break;
-                        default:
-                            Console.WriteLine("error");
-                            break;
+                        Console.WriteLine("insert first number");
+                        int n = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("insert second number");
+                        int k = Convert.ToInt32(Console.ReadLine());
+                        int result;
+                        Console.WriteLine("Choose operation");
+                        Console.WriteLine("1. addition");
+                        Console.WriteLine("2. subtraction");
+                        Console.WriteLine("3. multiplication");
+                        Console.WriteLine("4. divide");
+
+                        Console.WriteLine("Choose action");
+                        string action = Console.ReadLine();
+                        switch (action)
+                        {
+                            case "1":
+                                result = n + k;
+                                Console.WriteLine("result=" + result);
+                                break;
+                            case "2":
+                                result = n - k;
+                                Console.WriteLine("result=" + result);
+                                break;
+                            case "3":
+                                result = n * k;
+                                Console.WriteLine("result=" + result);
+                                break;
+                            case "4":
+                                result = n / k;
+                                Console.WriteLine("result=" + result);
+                                break;
+                            default:
+                                Console.WriteLine("error");
+                                break;
+                        }
+                        break;
                     }
-                    break;
+                case "2":
+                    {
+                        Console.WriteLine("Choose operation");
+                        Console.WriteLine("1. factorial");
+                        Console.WriteLine("2. prime number");
+                        Console.WriteLine("3. to the power");
+                        Console.WriteLine("4. mean");
+                        Console.WriteLine("Choose action");
+                        string action = Console.ReadLine();
+                        int number = advanced1.Factorial(2, 2);
+                        int result;
+                        Console.WriteLine("result=" + result);
+                        break;
+                    }
             }
         }
     }
